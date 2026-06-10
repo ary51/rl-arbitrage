@@ -1,5 +1,0 @@
-cryptohftdata
-polars
-pyarrow
-python-dotenv
-requests
