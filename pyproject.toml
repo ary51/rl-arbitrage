@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rl-arbitrage"
+version = "0.1.0"
+description = "RL-based arbitrage trading research"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cryptohftdata",
+    "polars",
+    "pyarrow",
+    "python-dotenv",
+    "requests",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
