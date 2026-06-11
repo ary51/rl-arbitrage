@@ -41,6 +41,6 @@ Run scripts from the project root:
 
 ```bash
 python scripts/download_data.py
-python scripts/inspect_data.py
+python scripts/verify_data.py
 python scripts/preprocess_data.py
 ```
