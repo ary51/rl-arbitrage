@@ -1,8 +1,27 @@
-data/
+# Environments
 .venv/
 .env
-*.pyc
+
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
 *.egg-info/
-dist/
+
+# Data
+data/
+*.parquet
+
+# C++ Build & Tooling
 build/
+out/
+.vscode/
+CMakeCache.txt
+CMakeFiles/
+*.exe
+*.obj
+*.pdb
+*.lib
+*.dll
